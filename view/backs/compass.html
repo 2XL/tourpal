@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tourist's Pal - Compass</title>
+    <script type='text/javascript' src='js/libs/jquery/jquery.js'></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<!--
+ 1r Carregar el .map de tarragona
+
+    -- mirar el demo com gestionar el flux de control
+
+ <!--
+ coordenades que cobreix el mapa
+ <bounds
+ minlat="41.1057000"    sud
+ minlon="1.2310000"     < oest
+ maxlat="41.1461000"    nord
+ maxlon="1.3111000"     > est
+ />
+
+    mapping library:    leaflet http://leafletjs.com/download.html
+    map tiles:          mapbox https://www.mapbox.com/tilemill/
+
+
+
+ 2n Colocar un compas al mig del mapa
+
+
+ 3r variable global d'ubicació actual
+
+ 4t variable de ubicació destí
+
+ 5e variable en temps real del compas
+
+ 6e seguir el trajecte planificat per el beacon.
+    (preveure que l'usuari es desvii, del beacon, aleshores
+    l'algoritme haura d'actualitzar el proper beacon
+    mitjançant de l'ultima estimació d'ubicació actual...etc.
+
+
+
+-->
+<div data-role="content">
+
+    <pre>
+        Hello World
+    </pre>
+
+</div>
+
+
+<script>
+
+    var mapPath = "maps/map-tgn.map";
+
+    // http://geospatialscott.blogspot.com.es/2012/04/phonegap-leaflet-tilemill-offline.html
+
+    /*
+    Phone gap
+    Leaflet
+    TileMill
+
+     */
+
+    console.log(">>>Discover.HTML/"+isPhoneGapReady);
+
+
+
+
+
+
+
+    window.onload = function () {
+       // alert(isPhoneGapReady);
+
+        console.log("Device status: " + isPhoneGapReady);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+
+</html>
